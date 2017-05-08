@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/skipper-api/skipper-api.iml" filepath="$PROJECT_DIR$/skipper-api/skipper-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-dao/skipper-dao.iml" filepath="$PROJECT_DIR$/skipper-dao/skipper-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-demo-parent.iml" filepath="$PROJECT_DIR$/skipper-demo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-service/skipper-service.iml" filepath="$PROJECT_DIR$/skipper-service/skipper-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-service-web/skipper-service-web.iml" filepath="$PROJECT_DIR$/skipper-service-web/skipper-service-web.iml" />
+    </modules>
+  </component>
+</project>
