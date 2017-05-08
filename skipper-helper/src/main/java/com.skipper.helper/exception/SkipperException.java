@@ -1,6 +1,7 @@
-package com.skipper.api.common.exception;
+package com.skipper.helper.exception;
 
-import com.skipper.api.common.enums.ApiResponseCode;
+
+import com.skipper.helper.enums.ApiResponseCode;
 
 /**
  * 自定义跑错类型

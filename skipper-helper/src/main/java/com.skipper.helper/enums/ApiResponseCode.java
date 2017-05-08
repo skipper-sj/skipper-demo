@@ -1,4 +1,4 @@
-package com.skipper.api.common.enums;
+package com.skipper.helper.enums;
 
 /**
  * 错误码

@@ -1,10 +1,9 @@
-package com.skipper.api.common.model;
+package com.skipper.helper.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.skipper.api.common.enums.ApiResponseCode;
+
+import com.skipper.helper.enums.ApiResponseCode;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 

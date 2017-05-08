@@ -22,6 +22,7 @@
         <module>skipper-service</module>
         <module>skipper-service-web</module>
         <module>skipper-boot</module>
+        <module>skipper-helper</module>
     </modules>
 
     <dependencyManagement>
