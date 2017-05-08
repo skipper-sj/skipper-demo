@@ -8,6 +8,8 @@ import javax.ws.rs.QueryParam;
 import java.io.Serializable;
 
 /**
+ * 分页入参通用实体类
+ *
  * Created by shoujian on 2017/5/8.
  */
 public class PageParam implements Serializable {
