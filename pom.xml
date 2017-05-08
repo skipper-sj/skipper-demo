@@ -12,7 +12,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.deploy.skip>false</maven.deploy.skip>
-        <skipper-bom>1.0.0-SNAPSHOT</skipper-bom>
+        <skipper-bom.version>1.0.0-SNAPSHOT</skipper-bom.version>
+        <skipper-api.version>1.0.0-SNAPSHOT</skipper-api.version>
+        <skipper-service.version>1.0.0-SNAPSHOT</skipper-service.version>
+        <skipper-dao.version>1.0.0-SNAPSHOT</skipper-dao.version>
+        <skipper-helper.version>1.0.0-SNAPSHOT</skipper-helper.version>
+
     </properties>
 
 
@@ -32,24 +37,46 @@
             <dependency>
                 <groupId>com.skipper</groupId>
                 <artifactId>api-integration</artifactId>
-                <version>${skipper-bom}</version>
+                <version>${skipper-bom.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.skipper</groupId>
                 <artifactId>dao-integration</artifactId>
-                <version>${skipper-bom}</version>
+                <version>${skipper-bom.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.skipper</groupId>
                 <artifactId>web-integration</artifactId>
-                <version>${skipper-bom}</version>
+                <version>${skipper-bom.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.skipper</groupId>
                 <artifactId>service-integration</artifactId>
-                <version>${skipper-bom}</version>
+                <version>${skipper-bom.version}</version>
             </dependency>
 
+
+            <!-- skipper  -->
+            <dependency>
+                <groupId>com.skipper.demo</groupId>
+                <artifactId>skipper-api</artifactId>
+                <version>${skipper-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.skipper.demo</groupId>
+                <artifactId>skipper-dao</artifactId>
+                <version>${skipper-dao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.skipper.demo</groupId>
+                <artifactId>skipper-helper</artifactId>
+                <version>${skipper-helper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.skipper.demo</groupId>
+                <artifactId>skipper-service</artifactId>
+                <version>${skipper-service.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

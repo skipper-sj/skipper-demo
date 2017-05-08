@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/skipper-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/skipper-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skipper-helper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/skipper-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/skipper-service-web" charset="UTF-8" />
   </component>

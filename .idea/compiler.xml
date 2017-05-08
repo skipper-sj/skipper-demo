@@ -9,6 +9,7 @@
         <module name="skipper-api" />
         <module name="skipper-boot" />
         <module name="skipper-dao" />
+        <module name="skipper-helper" />
         <module name="skipper-model" />
         <module name="skipper-service" />
         <module name="skipper-service-web" />
@@ -20,6 +21,7 @@
       <module name="skipper-boot" target="1.5" />
       <module name="skipper-dao" target="1.8" />
       <module name="skipper-demo-parent" target="1.8" />
+      <module name="skipper-helper" target="1.8" />
       <module name="skipper-model" target="1.5" />
       <module name="skipper-service" target="1.8" />
       <module name="skipper-service-web" target="1.8" />
