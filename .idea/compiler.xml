@@ -7,7 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="skipper-api" />
-        <module name="skipper-boot" />
+        <module name="skipper-boot-manager" />
+        <module name="skipper-boot-web" />
         <module name="skipper-dao" />
         <module name="skipper-helper" />
         <module name="skipper-model" />
@@ -18,7 +19,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="skipper-api" target="1.8" />
-      <module name="skipper-boot" target="1.5" />
+      <module name="skipper-boot" target="1.8" />
+      <module name="skipper-boot-manager" target="1.8" />
+      <module name="skipper-boot-web" target="1.8" />
       <module name="skipper-dao" target="1.8" />
       <module name="skipper-demo-parent" target="1.8" />
       <module name="skipper-helper" target="1.8" />

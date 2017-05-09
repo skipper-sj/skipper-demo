@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/skipper-api/skipper-api.iml" filepath="$PROJECT_DIR$/skipper-api/skipper-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot-manager/skipper-boot-manager.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot-manager/skipper-boot-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot-web/skipper-boot-web.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot-web/skipper-boot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-dao/skipper-dao.iml" filepath="$PROJECT_DIR$/skipper-dao/skipper-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-demo-parent.iml" filepath="$PROJECT_DIR$/skipper-demo-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-helper/skipper-helper.iml" filepath="$PROJECT_DIR$/skipper-helper/skipper-helper.iml" />

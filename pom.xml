@@ -54,6 +54,11 @@
                 <artifactId>service-integration</artifactId>
                 <version>${skipper-bom.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.skipper</groupId>
+                <artifactId>boot-integration</artifactId>
+                <version>${skipper-bom.version}</version>
+            </dependency>
 
 
             <!-- skipper  -->
@@ -80,6 +85,35 @@
 
         </dependencies>
     </dependencyManagement>
+
+    <!-- 暂时用公司的仓库 -->
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>http://repository.apitops.com/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://repository.apitops.com/content/repositories/releases/</url>
+        </repository>
+        <repository>
+            <id>nexus-snapshots</id>
+            <url>http://repository.apitops.com/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>nexus-releases</name>
+            <url>http://repository.apitops.com/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>nexus-snapshots</name>
+            <url>http://repository.apitops.com/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
