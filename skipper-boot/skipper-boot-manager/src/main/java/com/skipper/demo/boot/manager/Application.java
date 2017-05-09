@@ -2,8 +2,11 @@ package com.skipper.demo.boot.manager;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 import javax.ws.rs.Path;
@@ -30,5 +33,15 @@ import javax.ws.rs.Path;
 )
 public class Application extends SpringBootServletInitializer {
 
+    public static void main(String[] args) {
+        //从main方法启动spring应用的类
+        ConfigurableApplicationContext context = SpringApplication.run(Application.class);
+
+    }
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application){
+        return application.sources(Application.class);
+    }
 
 }

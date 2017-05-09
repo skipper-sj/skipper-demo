@@ -1,0 +1,19 @@
+#######服务配置#####
+server:
+  port: 8080
+  session:
+    timeout: 3600
+
+spring:
+#######springmvc相关配置#######
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+#####es环境配置，暂时先配公司开发环境es环境#######
+  data:
+    elasticsearch:
+      cluster-name: es-dev
+      cluster-nodes: logservice1.test.apitops.com:9300,logservice2.test.apitops.com:9300,logservice3.test.apitops.com:9300
+
+
