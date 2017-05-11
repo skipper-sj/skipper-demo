@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/skipper-activiti/skipper-activiti.iml" filepath="$PROJECT_DIR$/skipper-activiti/skipper-activiti.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-api/skipper-api.iml" filepath="$PROJECT_DIR$/skipper-api/skipper-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot-framework/skipper-boot-framework.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot-framework/skipper-boot-framework.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/skipper-boot/skipper-boot-web/skipper-boot-web.iml" filepath="$PROJECT_DIR$/skipper-boot/skipper-boot-web/skipper-boot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-dao/skipper-dao.iml" filepath="$PROJECT_DIR$/skipper-dao/skipper-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-demo-parent.iml" filepath="$PROJECT_DIR$/skipper-demo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skipper-elasticsearch/skipper-elasticsearch.iml" filepath="$PROJECT_DIR$/skipper-elasticsearch/skipper-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-helper/skipper-helper.iml" filepath="$PROJECT_DIR$/skipper-helper/skipper-helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-service/skipper-service.iml" filepath="$PROJECT_DIR$/skipper-service/skipper-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/skipper-service-web/skipper-service-web.iml" filepath="$PROJECT_DIR$/skipper-service-web/skipper-service-web.iml" />

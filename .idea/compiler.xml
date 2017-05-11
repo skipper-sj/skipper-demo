@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="skipper-activiti" />
         <module name="skipper-api" />
+        <module name="skipper-boot-framework" />
         <module name="skipper-boot-manager" />
         <module name="skipper-boot-web" />
         <module name="skipper-dao" />
+        <module name="skipper-elasticsearch" />
         <module name="skipper-helper" />
         <module name="skipper-model" />
         <module name="skipper-service" />
@@ -18,12 +21,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="skipper-activiti" target="1.8" />
       <module name="skipper-api" target="1.8" />
       <module name="skipper-boot" target="1.8" />
+      <module name="skipper-boot-framework" target="1.8" />
       <module name="skipper-boot-manager" target="1.8" />
       <module name="skipper-boot-web" target="1.8" />
       <module name="skipper-dao" target="1.8" />
       <module name="skipper-demo-parent" target="1.8" />
+      <module name="skipper-elasticsearch" target="1.8" />
       <module name="skipper-helper" target="1.8" />
       <module name="skipper-model" target="1.5" />
       <module name="skipper-service" target="1.8" />
