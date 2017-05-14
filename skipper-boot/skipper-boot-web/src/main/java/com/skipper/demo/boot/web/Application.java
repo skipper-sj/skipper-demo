@@ -1,4 +1,4 @@
-package com.skipper.demo.boot.manager;
+package com.skipper.demo.boot.web;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.mybatis.spring.annotation.MapperScan;

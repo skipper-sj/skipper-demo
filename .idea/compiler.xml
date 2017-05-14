@@ -9,7 +9,6 @@
         <module name="skipper-activiti" />
         <module name="skipper-api" />
         <module name="skipper-boot-framework" />
-        <module name="skipper-boot-manager" />
         <module name="skipper-boot-web" />
         <module name="skipper-dao" />
         <module name="skipper-elasticsearch" />

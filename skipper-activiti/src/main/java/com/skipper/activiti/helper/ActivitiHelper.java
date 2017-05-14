@@ -138,5 +138,27 @@ public class ActivitiHelper {
         return processInstanceIds;
     }
 
+    /**
+     * 根据用户id获取任务列表
+     * @param candidateUserId   用户id
+     * @return  任务列表
+     */
+    public static List<String> findMyUserTasks(String candidateUserId) {
+        SkipperException.isNull(candidateUserId, "用户id列表不能为空");
+
+        List<Task> tasks = activitiHelper.taskService
+                .createTaskQuery()
+                .taskCandidateUser(candidateUserId)
+                .orderByTaskCreateTime()
+                .desc()
+                .list();
+
+        List<String> processInstanceIds = new ArrayList<>();
+
+        Map<String, List<Task>> taskByProcessInstanceIdMap = tasks.stream().collect(Collectors.groupingBy(Task::getProcessInstanceId));
+        processInstanceIds.addAll(taskByProcessInstanceIdMap.keySet());
+        return processInstanceIds;
+    }
+
 
 }

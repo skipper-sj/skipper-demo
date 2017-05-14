@@ -11,5 +11,15 @@
 
     <artifactId>skipper-boot-web</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.skipper</groupId>
+            <artifactId>boot-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.skipper.demo</groupId>
+            <artifactId>skipper-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
