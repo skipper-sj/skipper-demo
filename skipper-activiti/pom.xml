@@ -59,6 +59,10 @@
             <groupId>org.activiti</groupId>
             <artifactId>activiti-cxf</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.skipper.demo</groupId>
+            <artifactId>skipper-helper</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

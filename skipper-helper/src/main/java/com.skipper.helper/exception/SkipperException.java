@@ -4,7 +4,7 @@ package com.skipper.helper.exception;
 import com.skipper.helper.enums.ApiResponseCode;
 
 /**
- * 自定义跑错类型
+ * 自定义抛错类型
  *
  * Created by shoujian on 2017/5/8.
  */
@@ -22,15 +22,37 @@ public class SkipperException extends RuntimeException {
         this.message = message;
     }
 
+    /**
+     * 自定义抛错
+     * @param apiResponseCode 错误码
+     */
+    public static void fail(ApiResponseCode apiResponseCode) {
+        throw new SkipperException(apiResponseCode.get(), apiResponseCode.getName());
+    }
+
+    /**
+     * 自定义抛错
+     * @param code 抛错码
+     *
+     */
     public static void fail(Integer code) {
         throw new SkipperException(code, ApiResponseCode.getNameByCode(code));
     }
 
     /**
      * 自定义抛错
+     * @param apiResponseCode 错误码
+     * @param message 错误描述内容
+     */
+    public static void fail(ApiResponseCode apiResponseCode, String message) {
+        throw new SkipperException(apiResponseCode.get(), message == null ? apiResponseCode.getName() : message);
+    }
+
+    /**
+     * 自定义抛错
      *
      * @param code 错误码
-     * @param message 错误内容
+     * @param message 错误描述内容
      */
     public static void fail(Integer code, String message) {
         throw new SkipperException(code, message == null ? ApiResponseCode.getNameByCode(code) : message);
@@ -40,7 +62,7 @@ public class SkipperException extends RuntimeException {
      * 自定义空抛错
      *
      * @param obj 需要验证的数据
-     * @param message   错误内容
+     * @param message   错误描述内容
      */
     public static void isNull(Object obj, String message) {
         if (obj == null || obj.equals("")) {

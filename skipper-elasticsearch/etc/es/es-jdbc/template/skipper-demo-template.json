@@ -1,0 +1,76 @@
+{
+  "template": "skipper-*",
+  "settings": {
+    "index": {
+      "refresh_interval": "5s",
+      "max_result_window" : 500000
+    },
+    "analysis": {
+      "analyzer": {
+        "title_ngram_analyzer": {
+          "tokenizer": "title_ngram_tokenizer",
+          "filter": [
+            "lowercaseFilter",
+            "uppercaseFilter"
+          ]
+        }
+      },
+      "tokenizer": {
+        "title_ngram_tokenizer": {
+          "type": "nGram",
+          "min_gram": "1",
+          "max_gram": "1",
+          "token_chars": [
+            "letter",
+            "digit"
+          ]
+        }
+      },
+      "filter": {
+        "lowercaseFilter": {
+          "type": "lowercase"
+        },
+        "uppercaseFilter": {
+          "type": "uppercase"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "_default_": {
+      "_source": {
+        "enabled": true
+      },
+      "_all": {
+        "enabled": true
+      }
+    },
+    "demo": {
+      "dynamic": "strict",
+      "properties": {
+        "skipper_demo_id": {
+          "type": "long"
+        },
+        "@timestamp": {
+          "type": "date"
+        },
+        "skipper_demo_name": {
+          "type": "string"
+        },
+        "skipper_demo_create_time": {
+          "type": "date"
+        },
+        "skipper_demo_update_time": {
+          "type": "date"
+        },
+        "skipper_demo_is_deleted": {
+          "type": "integer"
+        },
+        "skipper_demo_sys_time": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "aliases": {}
+}

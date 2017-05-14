@@ -47,7 +47,6 @@ public class Result<T> implements Serializable{
         return createSuccess(null);
     }
 
-
     public static <T> Result<T> createSuccess(T t){
         return createSuccess(t, null);
     }

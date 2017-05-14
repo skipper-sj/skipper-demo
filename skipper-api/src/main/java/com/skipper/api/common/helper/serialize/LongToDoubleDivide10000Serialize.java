@@ -15,7 +15,7 @@ import java.io.IOException;
 public class LongToDoubleDivide10000Serialize extends JsonSerializer<Long> {
     @Override
     public void serialize(Long value, JsonGenerator gen, SerializerProvider serializers) throws IOException, JsonProcessingException {
-        Double doubleTemp = value.doubleValue() / 10000;
+        Double doubleTemp = value.doubleValue() / 10000000;
         //两位有效数字
         String strTemp = String.format("%.2f", doubleTemp);
         gen.writeString(strTemp);
