@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 性别枚举
- *
+ * <p>
  * Created by shoujian on 2017/5/8.
  */
 public enum GenderEnum {
@@ -12,9 +12,9 @@ public enum GenderEnum {
     UNKNOWN(0, "未知"), MAN(1, "先生"), WOMAN(2, "女士");
 
     private Integer value;
-    private String  chinese;
+    private String chinese;
 
-    private GenderEnum(Integer value, String chinese){
+    private GenderEnum(Integer value, String chinese) {
         this.value = value;
         this.chinese = chinese;
     }

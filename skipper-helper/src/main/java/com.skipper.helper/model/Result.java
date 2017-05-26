@@ -9,10 +9,10 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * 统一返回结果实体
- *
+ * <p>
  * Created by shoujian on 2017/5/8.
  */
-public class Result<T> implements Serializable{
+public class Result<T> implements Serializable {
 
     private static final long serialVersionUID = 4573661725819000001L;
 
@@ -43,15 +43,15 @@ public class Result<T> implements Serializable{
         setServerTime(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }
 
-    public static <T> Result<T> createSuccess(){
+    public static <T> Result<T> createSuccess() {
         return createSuccess(null);
     }
 
-    public static <T> Result<T> createSuccess(T t){
+    public static <T> Result<T> createSuccess(T t) {
         return createSuccess(t, null);
     }
 
-    public  static <T> Result<T> createSuccess(T t,String message){
+    public static <T> Result<T> createSuccess(T t, String message) {
         return new Result<T>(ApiResponseCode.SUCCESS.get(), message, t);
     }
 

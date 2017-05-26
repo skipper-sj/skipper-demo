@@ -4,19 +4,19 @@ import com.skipper.activiti.helper.model.DeploymentParam;
 import com.skipper.helper.enums.ApiResponseCode;
 import com.skipper.helper.exception.SkipperException;
 import com.skipper.helper.util.SpringContext;
-import javafx.application.Application;
-import org.activiti.engine.*;
+import org.activiti.engine.ProcessEngine;
+import org.activiti.engine.RepositoryService;
+import org.activiti.engine.RuntimeService;
+import org.activiti.engine.TaskService;
 import org.activiti.engine.impl.persistence.entity.UserEntity;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
-import org.springframework.context.ApplicationContext;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -119,7 +119,7 @@ public class ActivitiHelper {
      * 根据用户组id获取代办任务流程实例id列表
      *
      * @param candidateGroupIds 用户组id
-     * @return  代办流程列表
+     * @return 代办流程列表
      */
     public static List<String> findMyGroupTasks(List<String> candidateGroupIds) {
         SkipperException.isNull(candidateGroupIds, "用户组id不能为空");
@@ -140,8 +140,9 @@ public class ActivitiHelper {
 
     /**
      * 根据用户id获取任务列表
-     * @param candidateUserId   用户id
-     * @return  任务列表
+     *
+     * @param candidateUserId 用户id
+     * @return 任务列表
      */
     public static List<String> findMyUserTasks(String candidateUserId) {
         SkipperException.isNull(candidateUserId, "用户id列表不能为空");

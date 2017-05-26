@@ -5,7 +5,7 @@ import com.skipper.helper.enums.ApiResponseCode;
 
 /**
  * 自定义抛错类型
- *
+ * <p>
  * Created by shoujian on 2017/5/8.
  */
 public class SkipperException extends RuntimeException {
@@ -16,7 +16,7 @@ public class SkipperException extends RuntimeException {
 
     private String message;
 
-    public SkipperException(Integer code,String message) {
+    public SkipperException(Integer code, String message) {
         super(message);
         this.code = code;
         this.message = message;
@@ -24,6 +24,7 @@ public class SkipperException extends RuntimeException {
 
     /**
      * 自定义抛错
+     *
      * @param apiResponseCode 错误码
      */
     public static void fail(ApiResponseCode apiResponseCode) {
@@ -32,8 +33,8 @@ public class SkipperException extends RuntimeException {
 
     /**
      * 自定义抛错
-     * @param code 抛错码
      *
+     * @param code 抛错码
      */
     public static void fail(Integer code) {
         throw new SkipperException(code, ApiResponseCode.getNameByCode(code));
@@ -41,8 +42,9 @@ public class SkipperException extends RuntimeException {
 
     /**
      * 自定义抛错
+     *
      * @param apiResponseCode 错误码
-     * @param message 错误描述内容
+     * @param message         错误描述内容
      */
     public static void fail(ApiResponseCode apiResponseCode, String message) {
         throw new SkipperException(apiResponseCode.get(), message == null ? apiResponseCode.getName() : message);
@@ -51,7 +53,7 @@ public class SkipperException extends RuntimeException {
     /**
      * 自定义抛错
      *
-     * @param code 错误码
+     * @param code    错误码
      * @param message 错误描述内容
      */
     public static void fail(Integer code, String message) {
@@ -61,8 +63,8 @@ public class SkipperException extends RuntimeException {
     /**
      * 自定义空抛错
      *
-     * @param obj 需要验证的数据
-     * @param message   错误描述内容
+     * @param obj     需要验证的数据
+     * @param message 错误描述内容
      */
     public static void isNull(Object obj, String message) {
         if (obj == null || obj.equals("")) {

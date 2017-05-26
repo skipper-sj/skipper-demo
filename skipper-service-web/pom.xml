@@ -16,6 +16,10 @@
             <groupId>com.skipper</groupId>
             <artifactId>web-integration</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.skipper.demo</groupId>
+            <artifactId>skipper-service</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

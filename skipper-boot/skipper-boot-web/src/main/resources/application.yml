@@ -15,6 +15,7 @@ spring:
     elasticsearch:
       cluster-name: es-dev
       cluster-nodes: logservice1.test.apitops.com:9300,logservice2.test.apitops.com:9300,logservice3.test.apitops.com:9300
+#####数据库配置######
   datasource:
     name: default
     type: org.apache.tomcat.jdbc.pool.DataSource

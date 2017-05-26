@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * 分页入参通用实体类
- *
+ * <p>
  * Created by shoujian on 2017/5/8.
  */
 public class PageParam implements Serializable {
