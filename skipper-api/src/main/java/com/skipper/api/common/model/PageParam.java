@@ -16,13 +16,13 @@ public class PageParam implements Serializable {
 
     private static final long serialVersionUID = -3504379837441464197L;
 
-    @Min(1)
+    @Min(value = 1,message = "页数不能小于1")
     @DefaultValue("1")
     @QueryParam(value = "pageIndex")
     @ApiParam(value = "分页参数：当前分页页数")
     private Integer pageIndex;
 
-    @Min(1)
+    @Min(value = 1,message = "分页大小不能小于1")
     @DefaultValue("14")
     @QueryParam(value = "pageSize")
     @ApiParam(value = "分页参数：当前分页大小")

@@ -1,6 +1,8 @@
 package com.skipper.web.demo.model.vo;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.skipper.api.common.helper.serialize.DoubleToLongDeserialize;
 import com.skipper.api.common.helper.serialize.LongToDoubleSerialize;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
@@ -19,16 +21,15 @@ public class DemoVO {
 
     @ApiModelProperty(value = "demoId")
     @NotNull(message = "demoId不能为空")
-    @Min(value = 1, message = "不能小于1")//仅仅是个例子，备注用法
-    @Max(value = 100, message = "不能大于100")//仅仅是个例子，备注用法
     private Long demoId;
 
     @ApiModelProperty(value = "demo名称")
+    @NotNull(message = "demo名称不能为空")
     private String demoName;
 
     @ApiModelProperty(value = "价格")
     @JsonSerialize(using = LongToDoubleSerialize.class)//序列化，将数据库的long型转换成真是的数值
-
+    @JsonDeserialize(using = DoubleToLongDeserialize.class)//反序列化，将页面上的double类型的数据转换成数据库的long型
     private Long price;
 
     public Long getDemoId() {

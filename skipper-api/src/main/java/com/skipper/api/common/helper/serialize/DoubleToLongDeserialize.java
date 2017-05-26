@@ -14,9 +14,9 @@ import java.io.IOException;
  * <p>
  * Created by shoujian on 2017/5/26.
  */
-public class DoubleToLongSerialize extends JsonDeserializer<Long> {
+public class DoubleToLongDeserialize extends JsonDeserializer<Long> {
 
-    //将
+    //将真是的double数据转换成数据库支持的long型
     @Override
     public Long deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
         Long temp = null;
