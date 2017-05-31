@@ -1,6 +1,7 @@
 package com.skipper.activiti.helper.model;
 
-import com.sun.istack.NotNull;
+
+import javax.validation.constraints.NotNull;
 
 /**
  * 流程部署入参

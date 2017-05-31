@@ -29,7 +29,7 @@ import javax.ws.rs.Path;
         }
 )
 @MapperScan(//mapper扫描
-        basePackages = {"com.skipper.dao.demo"}
+        basePackages = {"com.skipper.dao"}
 )
 public class Application extends SpringBootServletInitializer {
 

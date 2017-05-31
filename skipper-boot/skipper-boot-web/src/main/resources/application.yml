@@ -10,11 +10,6 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
-#####es环境配置，暂时先配公司开发环境es环境#######
-  data:
-    elasticsearch:
-      cluster-name: es-dev
-      cluster-nodes: logservice1.test.apitops.com:9300,logservice2.test.apitops.com:9300,logservice3.test.apitops.com:9300
 #####数据库配置######
   datasource:
     name: default

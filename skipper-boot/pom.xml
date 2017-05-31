@@ -12,15 +12,21 @@
     <artifactId>skipper-boot</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>skipper-boot-manager</module>
         <module>skipper-boot-web</module>
-        <module>skipper-boot-framework</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>com.skipper</groupId>
             <artifactId>boot-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
     </dependencies>
 
