@@ -1,5 +1,6 @@
-package com.skipper.demo.boot.web;
+package com.skipper.boot.web;
 
+import com.skipper.boot.config.WebConfig;
 import org.aspectj.lang.annotation.Aspect;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -8,6 +9,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Import;
 
 import javax.ws.rs.Path;
 
@@ -31,6 +33,7 @@ import javax.ws.rs.Path;
 @MapperScan(//mapper扫描
         basePackages = {"com.skipper.dao"}
 )
+//@Import(WebConfig.class)
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {

@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="skipper-activiti" />
         <module name="skipper-api" />
-        <module name="skipper-boot-web" />
         <module name="skipper-dao" />
         <module name="skipper-elasticsearch" />
         <module name="skipper-helper" />

@@ -7,8 +7,6 @@ import com.skipper.api.common.helper.serialize.LongToDoubleSerialize;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 /**

@@ -7,14 +7,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by shoujian on 2017/5/6.
+ * Created by shoujian on 2017/6/2.
  */
 @RestController
 @RequestMapping(value = "/demo")
-public interface DemoRest {
+public class DemoController {
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
-    @ApiOperation(value = "根据id获取demo详情",notes = "get方法，id获取详情")
-    DemoVO getDemoById();
-
+    @RequestMapping(path = "/demo", method = RequestMethod.GET)
+    @ApiOperation(value = "根据id获取demo详情", notes = "get方法，id获取详情")
+    DemoVO getDemoById(){
+        System.out.println("ss");
+        return null;
+    }
 }

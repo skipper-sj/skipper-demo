@@ -1,4 +1,4 @@
-package com.skipper.demo.boot.swagger;
+package com.skipper.boot.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,9 +22,21 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.skipper.web.demo.rest"))
+                .apis(RequestHandlerSelectors.basePackage("com.skipper.web"))
                 .paths(PathSelectors.any())
                 .build();
+
+//        return new Docket(DocumentationType.SWAGGER_2)
+//                .groupName("demo")
+////                .genericModelSubstitutes(DeferredResult.class)
+////              .genericModelSubstitutes(ResponseEntity.class)
+////                .useDefaultResponseMessages(false)
+////                .forCodeGeneration(false)
+////                .pathMapping("/")
+//                .select()
+//                .paths(or(regex("/demo.*")))//过滤的接口
+//                .build()
+//                .apiInfo(apiInfo());
     }
 
     private ApiInfo apiInfo() {
@@ -33,7 +45,7 @@ public class Swagger2 {
                 .description("skipper的例子")
                 .termsOfServiceUrl("暂无")
                 .contact("learner skipper")
-                .version("1.0")
+                .version("1.0.0")
                 .build();
     }
 }
