@@ -36,14 +36,7 @@ public class SkipperDemo {
      *
      * @mbggenerated
      */
-    private Byte isDeleted;
-
-    /**
-     * 系统时间
-     *
-     * @mbggenerated
-     */
-    private Date sysTime;
+    private Integer isDeleted;
 
     public Long getDemoId() {
         return demoId;
@@ -77,19 +70,12 @@ public class SkipperDemo {
         this.updateTime = updateTime;
     }
 
-    public Byte getIsDeleted() {
+    public Integer getIsDeleted() {
         return isDeleted;
     }
 
-    public void setIsDeleted(Byte isDeleted) {
+    public void setIsDeleted(Integer isDeleted) {
         this.isDeleted = isDeleted;
     }
 
-    public Date getSysTime() {
-        return sysTime;
-    }
-
-    public void setSysTime(Date sysTime) {
-        this.sysTime = sysTime;
-    }
 }
