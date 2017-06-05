@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.skipper.dao.demo.SkipperDemoMapper" >
+  <resultMap id="BaseResultMap" type="com.skipper.dao.demo.entity.SkipperDemo" >
+    <id column="demo_id" property="demoId" jdbcType="BIGINT" />
+    <result column="demo_name" property="demoName" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="is_deleted" property="isDeleted" jdbcType="TINYINT" />
+    <result column="sys_time" property="sysTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    demo_id, demo_name, create_time, update_time, is_deleted, sys_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from skipper_demo
+    where demo_id = #{demoId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from skipper_demo
+    where demo_id = #{demoId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.skipper.dao.demo.entity.SkipperDemo" >
+    insert into skipper_demo (demo_id, demo_name, create_time, 
+      update_time, is_deleted, sys_time
+      )
+    values (#{demoId,jdbcType=BIGINT}, #{demoName,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{isDeleted,jdbcType=TINYINT}, #{sysTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.skipper.dao.demo.entity.SkipperDemo" >
+    insert into skipper_demo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="demoId != null" >
+        demo_id,
+      </if>
+      <if test="demoName != null" >
+        demo_name,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="isDeleted != null" >
+        is_deleted,
+      </if>
+      <if test="sysTime != null" >
+        sys_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="demoId != null" >
+        #{demoId,jdbcType=BIGINT},
+      </if>
+      <if test="demoName != null" >
+        #{demoName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isDeleted != null" >
+        #{isDeleted,jdbcType=TINYINT},
+      </if>
+      <if test="sysTime != null" >
+        #{sysTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.skipper.dao.demo.entity.SkipperDemo" >
+    update skipper_demo
+    <set >
+      <if test="demoName != null" >
+        demo_name = #{demoName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isDeleted != null" >
+        is_deleted = #{isDeleted,jdbcType=TINYINT},
+      </if>
+      <if test="sysTime != null" >
+        sys_time = #{sysTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where demo_id = #{demoId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.skipper.dao.demo.entity.SkipperDemo" >
+    update skipper_demo
+    set demo_name = #{demoName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      is_deleted = #{isDeleted,jdbcType=TINYINT},
+      sys_time = #{sysTime,jdbcType=TIMESTAMP}
+    where demo_id = #{demoId,jdbcType=BIGINT}
+  </update>
+</mapper>
