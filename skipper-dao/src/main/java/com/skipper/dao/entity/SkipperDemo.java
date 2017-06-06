@@ -1,40 +1,30 @@
-package com.skipper.dao.demo.entity;
+package com.skipper.dao.entity;
 
 import java.util.Date;
 
 public class SkipperDemo {
     /**
      * demo表主键
-     *
-     * @mbggenerated
      */
     private Long demoId;
 
     /**
      * demo名称
-     *
-     * @mbggenerated
      */
     private String demoName;
 
     /**
      * 创建时间
-     *
-     * @mbggenerated
      */
     private Date createTime;
 
     /**
      * 更新时间
-     *
-     * @mbggenerated
      */
     private Date updateTime;
 
     /**
      * 删除标志位0未删除 1已删除
-     *
-     * @mbggenerated
      */
     private Integer isDeleted;
 

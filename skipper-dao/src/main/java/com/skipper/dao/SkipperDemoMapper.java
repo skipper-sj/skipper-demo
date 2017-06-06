@@ -1,6 +1,6 @@
-package com.skipper.dao.demo;
+package com.skipper.dao;
 
-import com.skipper.dao.demo.entity.SkipperDemo;
+import com.skipper.dao.entity.SkipperDemo;
 
 public interface SkipperDemoMapper {
     int deleteByPrimaryKey(Long demoId);

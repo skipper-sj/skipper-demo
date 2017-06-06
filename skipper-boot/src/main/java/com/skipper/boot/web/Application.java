@@ -1,6 +1,5 @@
 package com.skipper.boot.web;
 
-import com.skipper.boot.config.WebConfig;
 import org.aspectj.lang.annotation.Aspect;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +8,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Import;
 
 import javax.ws.rs.Path;
 

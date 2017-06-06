@@ -30,4 +30,5 @@ spring:
       maxIdle: 5
       minIdle: 5
       initialSize: 5
-
+#####mybatis中mapper相关配置信息#####
+mybatis.config-location: classpath:mybatis-config.xml

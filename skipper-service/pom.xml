@@ -20,6 +20,14 @@
             <groupId>com.skipper.demo</groupId>
             <artifactId>skipper-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.skipper.demo</groupId>
+            <artifactId>skipper-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.skipper.demo</groupId>
+            <artifactId>skipper-helper</artifactId>
+        </dependency>
 
     </dependencies>
 
