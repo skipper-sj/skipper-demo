@@ -1,4 +1,4 @@
-CREATE TABLE skipper.skipper_demo
+CREATE TABLE skipper_demo
 (
   demo_id     BIGINT(20) PRIMARY KEY              NOT NULL
   COMMENT 'demo表主键' AUTO_INCREMENT,
@@ -13,5 +13,5 @@ CREATE TABLE skipper.skipper_demo
   sys_time    TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL ON UPDATE CURRENT_TIMESTAMP
   COMMENT '系统时间'
 );
-ALTER TABLE skipper.skipper_demo
+ALTER TABLE skipper_demo
   COMMENT = 'skipper的demo表'

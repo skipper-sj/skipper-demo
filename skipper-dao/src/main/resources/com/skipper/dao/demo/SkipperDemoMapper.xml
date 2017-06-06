@@ -22,11 +22,16 @@
         WHERE demo_id = #{demoId,jdbcType=BIGINT}
     </delete>
     <insert id="insert" parameterType="com.skipper.dao.entity.SkipperDemo">
+        <selectKey resultType="java.lang.Long" order="AFTER"
+                   keyProperty="demoId">
+            SELECT LAST_INSERT_ID() AS demo_id
+
+        </selectKey>
         INSERT INTO skipper_demo (demo_id, demo_name, create_time,
-                                  update_time, is_deleted
+        update_time, is_deleted
         )
         VALUES (#{demoId,jdbcType=BIGINT}, #{demoName,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
-                #{updateTime,jdbcType=TIMESTAMP}, #{isDeleted,jdbcType=TINYINT}
+        #{updateTime,jdbcType=TIMESTAMP}, 0
         )
     </insert>
     <insert id="insertSelective" parameterType="com.skipper.dao.entity.SkipperDemo">

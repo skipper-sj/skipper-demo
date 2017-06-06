@@ -41,16 +41,32 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     public Long addDemo(DemoDTO demoDTO) {
-        return null;
+        SkipperDemo demo = new SkipperDemo();
+        BeanUtils.copyProperties(demoDTO, demo);
+        Integer rst = skipperDemoMapper.insert(demo);
+        if (rst == 0) {
+            SkipperException.fail(ApiResponseCode.DB_ERROR,"新增失败");
+        }
+        return demo.getDemoId();
     }
 
     @Override
     public Boolean updateDemo(DemoDTO demoDTO) {
-        return null;
+        SkipperDemo demo = new SkipperDemo();
+        BeanUtils.copyProperties(demoDTO, demo);
+        Integer rst = skipperDemoMapper.updateByPrimaryKeySelective(demo);
+        if (rst == 0) {
+            SkipperException.fail(ApiResponseCode.DB_ERROR, "更新失败");
+        }
+        return true;
     }
 
     @Override
     public Boolean deleteDemo(Long demoId) {
-        return null;
+        Integer rst = skipperDemoMapper.deleteByPrimaryKey(demoId);
+        if (rst == 0) {
+            SkipperException.fail(ApiResponseCode.DB_ERROR, "删除失败");
+        }
+        return true;
     }
 }
