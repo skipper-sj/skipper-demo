@@ -12,6 +12,12 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Created by shoujian on 2017/6/2.
  */
@@ -58,6 +64,5 @@ public class DemoController {
         BeanUtils.copyProperties(demoVO, demoDTO);
         return Result.createSuccess(demoService.updateDemo(demoDTO),"更新demo数据成功");
     }
-
 
 }
