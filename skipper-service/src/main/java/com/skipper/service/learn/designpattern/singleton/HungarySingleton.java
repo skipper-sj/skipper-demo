@@ -1,7 +1,5 @@
 package com.skipper.service.learn.designpattern.singleton;
 
-import sun.security.jca.GetInstance;
-
 /**
  * Created with IntelliJ IDEA.
  * Description:

@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb285f8-95d0-4613-aac7-878e2023cf01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/DoubleLockSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/StaticSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteSubject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Subject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Login.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/LoginManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasscodeLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasswordLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/AddContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/ConcreteStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/DivContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/MultiContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/NumberOperationContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/SubContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/LimitQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skipper-boot/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/skipper-boot/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java" afterPath="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/spring/SpringStart.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,75 +102,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdlerSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerSingleton.java">
+      <file leaf-file-name="LimitQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/LimitQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdlerThreadSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerThreadSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HungarySingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/shiro/ShiroAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/swagger/Swagger2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoubleLockSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/DoubleLockSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticSingleton.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/StaticSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="43" />
               <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedBlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,6 +195,7 @@
       <find>HandlerExecutionChain</find>
       <find>top</find>
       <find>gene</find>
+      <find>offer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -212,42 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skipper-service-web/src/main/java/com/skipper/web/demo/rest/DemoRest.java" />
-        <option value="$PROJECT_DIR$/skipper-service-web/src/main/java/com/skipper/web/Application.java" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/java/boot/web/Application.java" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/swagger/Swagger2.java" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/java/com/skipper/demo/dao/DemoMapper.java" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/java/com/skipper/dao/demo/DemoMapper.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/skipper-service/pom.xml" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/java/com/skipper/dao/demo/entity/SkipperDemo.java" />
-        <option value="$PROJECT_DIR$/skipper-api/src/main/java/com/skipper/api/demo/model/dto/DemoDTO.java" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/resources/META-INF/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/skipper-service-web/pom.xml" />
-        <option value="$PROJECT_DIR$/skipper-dao/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/com/skipper/skipper-bom/1.0.0-SNAPSHOT/skipper-bom-1.0.0-SNAPSHOT.pom" />
-        <option value="$PROJECT_DIR$/skipper-api/pom.xml" />
-        <option value="$PROJECT_DIR$/skipper-api/src/main/java/com/skipper/api/demo/DemoService.java" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/resources/META-INF/mybatis/sqlmap/demo/SkipperDemoMapper.xml" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/resources/com.skipper.dao/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/skipper-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/demo/service/impl/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/skipper-dao/sqlscript/create-demo.sql" />
-        <option value="$PROJECT_DIR$/skipper-dao/src/main/resources/com/skipper/dao/demo/SkipperDemoMapper.xml" />
-        <option value="$PROJECT_DIR$/skipper-service-web/src/main/java/com/skipper/web/demo/rest/ShiroController.java" />
-        <option value="$PROJECT_DIR$/skipper-service-web/src/main/java/com/skipper/web/shiro/rest/ShiroController.java" />
-        <option value="$PROJECT_DIR$/skipper-service-web/src/main/java/com/skipper/web/demo/rest/DemoController.java" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/thread/Main.java" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/thread/Thread1.java" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/thread/PrintChar.java" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/thread/ObjectLock.java" />
-        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/thread/PrintChar2.java" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/web/Application.java" />
-        <option value="$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/shiro/ShiroAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/jvm/ReferenceCountingGC.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/jvm/TestClass.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/leetcode/RelativeRanks.java" />
@@ -262,7 +229,43 @@
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerThreadSingleton.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/DoubleLockSingleton.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/StaticSingleton.java" />
         <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/StaticSingleton.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/DBOperationStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Update.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Add.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/NumberOperationStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Div.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Multi.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Sub.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/AddStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/DivStrateg.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/MultiStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/DivStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/SubStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Calc.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Test.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/NumberOperationContext.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/ConcreteStrategy.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/State.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateA.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateB.java" />
+        <option value="$PROJECT_DIR$/skipper-boot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Context.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Client.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteObserver.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Client.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Login.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/passcodeLogin.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasscodeLogin.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasswordLogin.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/LoginManager.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Test.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/Test.java" />
+        <option value="$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/LimitQueue.java" />
       </list>
     </option>
   </component>
@@ -280,7 +283,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -338,6 +341,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,16 +385,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -453,16 +449,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,235 +460,74 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
+              <item name="skipper-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
+              <item name="skipper-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipper-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="skipper-service-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-logging:commons-logging:1.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-logging:commons-logging:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-logging-1.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-logging:commons-logging:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-logging-1.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-logging:commons-logging:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-logging-1.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skipper-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,7 +539,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;string&#9;PSI&#9;JAVA://java.lang.String&#10;viewreso&#9;PSI&#9;JAVA://org.springframework.web.servlet.ViewResolver&#10;requestmappinghandlermapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;handlerinte&#9;PSI&#9;JAVA://org.springframework.web.servlet.HandlerInterceptor&#10;requestmapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&#10;DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;CopyOnWriteArrayList&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;hashtable&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Hashtable.java&#10;treebi&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap.TreeBin&#10;concurr&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;SynchronizedMap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;synchmap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;synhashmap&#9;PSI&#9;JAVA://com.sun.jmx.mbeanserver.Util#newSynchronizedIdentityHashMap&#10;hashma&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;beanfac&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;javac&#9;PSI&#9;JAVA://com.sun.tools.javac.resources.javac&#10;mapreduce&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask&#10;relock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java&#10;synchronimap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;hashset&#9;PSI&#9;JAVA://java.util.HashSet&#10;hashse&#9;PSI&#9;JAVA://org.elasticsearch.search.aggregations.metrics.cardinality.HyperLogLogPlusPlus.Hashset&#10;hashtab&#9;PSI&#9;JAVA://java.util.Hashtable&#10;has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;i&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/com/sun/org/apache/xml/internal/security/utils/I18n.java&#10;i1&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.security.utils.I18n&#10;referenceq&#9;PSI&#9;JAVA://java.lang.ref.ReferenceQueue&#10;SoftReference&#9;PSI&#9;JAVA://java.lang.ref.SoftReference&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;setConfiguration&#9;PSI&#9;JAVA://org.apache.ibatis.type.BaseTypeHandler#setConfiguration&#10;setVfs&#9;PSI&#9;JAVA://org.apache.ibatis.session.Configuration#setVfsImpl&#10;createStringAdaptingProperties&#9;PSI&#9;JAVA://org.springframework.core.CollectionFactory#createStringAdaptingProperties&#10;SqlSession&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession&#10;YamlProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.YamlProcessor&#10;JsonInclude$Value&#9;PSI&#9;JAVA://com.fasterxml.jackson.annotation.JsonInclude.Value" />
+    <property name="SearchEverywhereHistoryKey" value="Observable&#9;PSI&#9;JAVA://java.util.Observable&#10;Observer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Observer.java&#10;arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;string&#9;PSI&#9;JAVA://java.lang.String&#10;viewreso&#9;PSI&#9;JAVA://org.springframework.web.servlet.ViewResolver&#10;requestmappinghandlermapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;handlerinte&#9;PSI&#9;JAVA://org.springframework.web.servlet.HandlerInterceptor&#10;requestmapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&#10;DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;CopyOnWriteArrayList&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;hashtable&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Hashtable.java&#10;treebi&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap.TreeBin&#10;concurr&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;SynchronizedMap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;synchmap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;synhashmap&#9;PSI&#9;JAVA://com.sun.jmx.mbeanserver.Util#newSynchronizedIdentityHashMap&#10;hashma&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;beanfac&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;javac&#9;PSI&#9;JAVA://com.sun.tools.javac.resources.javac&#10;mapreduce&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask&#10;relock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java&#10;synchronimap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;hashset&#9;PSI&#9;JAVA://java.util.HashSet&#10;hashse&#9;PSI&#9;JAVA://org.elasticsearch.search.aggregations.metrics.cardinality.HyperLogLogPlusPlus.Hashset&#10;hashtab&#9;PSI&#9;JAVA://java.util.Hashtable&#10;has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;i&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/com/sun/org/apache/xml/internal/security/utils/I18n.java&#10;i1&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.security.utils.I18n&#10;referenceq&#9;PSI&#9;JAVA://java.lang.ref.ReferenceQueue&#10;SoftReference&#9;PSI&#9;JAVA://java.lang.ref.SoftReference&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;setConfiguration&#9;PSI&#9;JAVA://org.apache.ibatis.type.BaseTypeHandler#setConfiguration&#10;setVfs&#9;PSI&#9;JAVA://org.apache.ibatis.session.Configuration#setVfsImpl&#10;createStringAdaptingProperties&#9;PSI&#9;JAVA://org.springframework.core.CollectionFactory#createStringAdaptingProperties&#10;SqlSession&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession&#10;YamlProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.YamlProcessor&#10;JsonInclude$Value&#9;PSI&#9;JAVA://com.fasterxml.jackson.annotation.JsonInclude.Value" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -747,21 +572,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringStart">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.skipper.boot.web.Application" />
       <module name="skipper-boot" />
       <envs />
     </configuration>
-    <configuration name="ListForeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.skipper.service.learn.jvm.*" />
+          <option name="PATTERN" value="com.skipper.service.learn.designpattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.jvm.ListForeach" />
+      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.designpattern.observer.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -773,14 +598,14 @@
       <module name="skipper-service" />
       <envs />
     </configuration>
-    <configuration name="RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.skipper.service.learn.leetcode.*" />
+          <option name="PATTERN" value="com.skipper.service.learn.designpattern.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.leetcode.RelativeRanks" />
+      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.designpattern.state.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -792,14 +617,14 @@
       <module name="skipper-service" />
       <envs />
     </configuration>
-    <configuration name="SpringStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LimitQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.skipper.service.learn.spring.*" />
+          <option name="PATTERN" value="com.skipper.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.spring.SpringStart" />
+      <option name="MAIN_CLASS_NAME" value="com.skipper.service.test.LimitQueue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -811,17 +636,36 @@
       <module name="skipper-service" />
       <envs />
     </configuration>
-    <configuration name="Testjububianliang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.skipper.service.learn.jvm.*" />
+          <option name="PATTERN" value="com.skipper.service.learn.designpattern.staticfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.jvm.Testjububianliang" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.designpattern.staticfactory.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="skipper-service" />
+      <envs />
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.skipper.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.skipper.service.test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1327,41 +1171,22 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.skipper.service.learn.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.skipper.service.learn.leetcode.test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="skipper-service" />
-      <envs />
-    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.clean package tomcat7:run-war" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RelativeRanks" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Testjububianliang" />
-      <item index="4" class="java.lang.String" itemvalue="Application.test" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ListForeach" />
-      <item index="6" class="java.lang.String" itemvalue="Application.SpringStart" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Test (2)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.LimitQueue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SpringStart" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Testjububianliang" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ListForeach" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RelativeRanks" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LimitQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -1452,38 +1277,57 @@
       <workItem from="1505347313028" duration="649000" />
       <workItem from="1505952291033" duration="1853000" />
       <workItem from="1505976969067" duration="366000" />
-      <workItem from="1505994491741" duration="978000" />
+      <workItem from="1505994491741" duration="1006000" />
+      <workItem from="1506419766383" duration="131000" />
+      <workItem from="1506558656005" duration="2201000" />
+      <workItem from="1506731189322" duration="448000" />
+      <workItem from="1506764639825" duration="890000" />
+      <workItem from="1507593449651" duration="350000" />
+      <workItem from="1507709497441" duration="4307000" />
+      <workItem from="1507768501831" duration="991000" />
+      <workItem from="1507853673991" duration="24000" />
+      <workItem from="1507853842003" duration="2715000" />
+      <workItem from="1508161359972" duration="1400000" />
+      <workItem from="1508225303296" duration="8960000" />
+      <workItem from="1508282947176" duration="358000" />
+      <workItem from="1508317671062" duration="824000" />
+      <workItem from="1508371680308" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169642000" />
+    <option name="totallyTimeSpent" value="193543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18955651" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29685265" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31343284" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18955651" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29104477" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26323318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29104477" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18526466" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1522,7 +1366,7 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1535,251 +1379,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-784">
-          <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="161" column="9" lean-forward="false" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="172" column="67" lean-forward="false" selection-start-line="172" selection-start-column="62" selection-end-line="172" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMethodMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="195" column="9" lean-forward="false" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/view/ViewResolverComposite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/ViewResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18855">
-          <caret line="1320" column="37" lean-forward="false" selection-start-line="1320" selection-start-column="37" selection-end-line="1320" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/jvm/FinalizeEscapeGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="158" column="47" lean-forward="false" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="103" column="7" lean-forward="false" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="106" column="21" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="108" column="3" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/jvm/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/jvm/Testjububianliang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-dao/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="70" column="25" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/core/io/DefaultResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/WeakHashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="654" column="0" lean-forward="false" selection-start-line="654" selection-start-column="0" selection-end-line="654" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/util/ObjectUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="580" column="0" lean-forward="false" selection-start-line="580" selection-start-column="0" selection-end-line="580" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/support/ResourcePatternResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7095">
@@ -1873,27 +1472,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerSingleton.java">
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/DoubleLockSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerThreadSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/HungarySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerThreadSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/StaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/IdlerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/AddContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/DivContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/SubContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/ConcreteStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/NumberOperationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/strategy/MultiContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/skipper/boot-integration/1.0.0-SNAPSHOT/boot-integration-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-boot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1901,34 +1582,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/ConcreteStateB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/ConcreteSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/swagger/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="180">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/DoubleLockSingleton.java">
+    <entry file="file://$PROJECT_DIR$/skipper-boot/src/main/java/com/skipper/boot/web/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/singleton/StaticSingleton.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="177" column="29" lean-forward="false" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasscodeLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/PasswordLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/staticfactory/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="251" column="12" lean-forward="false" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="180" column="12" lean-forward="false" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="179" column="30" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/test/LimitQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipper-service/src/main/java/com/skipper/service/learn/designpattern/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

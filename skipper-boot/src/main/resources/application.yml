@@ -4,6 +4,7 @@ server:
   session:
     timeout: 3600
 
+
 spring:
 #######springmvc相关配置#######
   mvc:
